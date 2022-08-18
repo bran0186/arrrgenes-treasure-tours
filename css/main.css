@@ -51,9 +51,11 @@ body {
 
 .nav a {
   color: #fff;
+  outline-color: #522806;
   padding: .5em;
   border-radius: 1em;
   text-decoration: none;
+  display: inline-flex;
 }
 
 .banner {
