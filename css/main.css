@@ -50,8 +50,8 @@ body {
 }
 
 .nav a {
-  color: #fff;
-  outline-color: #522806;
+  color: #bea59b;
+  background-color: #522806;
   padding: .5em;
   border-radius: 1em;
   text-decoration: none;
@@ -70,6 +70,7 @@ body {
 .banner img {
   grid-area: banner;
   width: 100%;
+  display: flex;
 }
 
 .banner div {
@@ -84,6 +85,8 @@ body {
 .banner h2,
 .banner p {
   margin: 0 0 1.5rem;
+  color: #fff;
+  display: flex;
 }
 
 .banner a {
@@ -130,7 +133,7 @@ body {
 
 .card a {
   display: inline-block;
-  background-color: #bea59b;
+  background-color: #fff;
   padding: .5em 1.5em .6em;
   border-radius: 1em;
   color: #522806;
